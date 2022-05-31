@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<!--
+	Identity project
+-->
+<html>
+
+<head>
+	<title>Moudy</title>
+	<link rel="icon" type="images/icon.jpg" href="images/avatar.jpg">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<audio id="player" controls loop hidden>
+		<source src="audio/[3][CM2] Raw Braz CroArts remake!! ǁ3Dǁ.mp3" type="audio/mpeg">
+
+	</audio>
+
+	<style>
+		.rotate {
+			-moz-transition: all 1s linear;
+			-webkit-transition: all 1s linear;
+			transition: all 0.5s linear;
+		}
+
+		.rotate.down {
+			-moz-transform: rotate(180deg);
+			-webkit-transform: rotate(180deg);
+			transform: rotate(180deg);
+		}
+	</style>
+
+	
+</head>
+
+<body class="is-preload">
+	<j src="mouse.js"></j>
+<div  id="container"></div>
+	<div id="progressbar"></div>
+	<div id="scorllpath"></div>
+
+	</script>
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main">
+			<header>
+
+				<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+
+				<style>
+
+					
+				</style>
+				<h1 class="csss"><strong>Moudy</strong></h1>
+				<p class="csss"><b>Senior Psychonautics Engineer</b></p>
+			</header>
+
+
+
+			<footer>
+
+				
+				<ul class="icons">
+					<li><a href="https://www.youtube.com/channel/UCjkY4LKoleceilmozjXxboA" target="_blank"
+							class="icon brands fa-youtube">Twitter</a></li>
+					<li><a href="https://www.instagram.com/Mohammed_yehia_ashour/?fbclid=IwAR2a_cbJ5QvtOslbIQwKulq7a9ttK63LAjRqipNAji2JCy824r8c9g04FTI"
+							target="_blank" class="icon brands fa-instagram">Instagram</a></li>
+					<li><a href="https://www.facebook.com/mohammed.ashour.3726613/" target="_blank"
+							class="icon brands fa-facebook-f">Facebook</a></li>
+					<li><a href="page2/photoshop.html" class="fa-image">panzoid</a></li>
+					<!--<li><a href="#"	<button onclick="playPause()" type="button" class="fa fa-play"  >play  </button></a></li>-->
+
+					<button id="button" onclick="playPause()" class="icons"><i class="fa fa-play fa-1.7x"></i></button>
+					<p class="csss"><b>Click on the icon to play the music</b></p>
+				</ul>
+
+				<script>
+					var myaudio = document.getElementById("player");
+					var button = document.getElementById("button");
+					function playPause() {
+						if (myaudio.paused) {
+							myaudio.play();
+							button.innerHTML = "Pause";
+
+						} else {
+							myaudio.pause();
+							button.innerHTML = "Play";
+
+						}
+
+					}
+
+
+				</script>
+
+
+			</footer>
+
+			<button id="button2" onclick="downarrow();" class="icons"><i class="fa fa-arrow-down fa-1.7x "></i></button>
+			<hr />
+			<div id="test" class="csss">
+					<!--*******************************************************************************************-->
+					
+
+				<!--*******************************************************************************************-->
+				<div class="w3-white w3-text-grey w3-card-4">
+					<div class="w3-display-container">
+						<div class="hover14 column">
+							<figure><img src="images/avatar.jpg" style="width:50%" alt="Avatar"></figure>
+					
+					</div>
+						<div class="w3-display-bottomleft w3-container w3-text-black">
+							<div class="data-container">
+
+	
+								
+								
+							<h2 class="btn">Mohammed Ashour</h2> 
+						</div>
+						</div>
+					</div>
+					<div class="w3-container">
+						<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer,Programer
+						</p>
+						<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Gaza,Palestine</p>
+						<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+						<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0567866728</p>
+						<hr>
+
+						<!--start of skills html-->
+						<h1 class="csss">My Skills</h1>
+
+						<div class="csss">
+							<p>HTML</p>
+						</div>
+						<div class="container">
+							<div class="skills html">90%</div>
+						</div>
+
+						<div class="csss">
+							<p>CSS</p>
+						</div>
+						<div class="container">
+							<div class="skills css">80%</div>
+						</div>
+
+						<div class="csss">
+							<p>JavaScript</p>
+						</div>
+						<div class="container">
+							<div class="skills js">65%</div>
+						</div>
+
+						<div class="csss">
+							<p>Java</p>
+						</div>
+						<div class="container">
+							<div class="skills java">90%</div>
+						</div>
+						<div class="csss">
+							<p>photoshop</p>
+						</div>
+						<div class="container">
+							<div class="skills ps">90%</div>
+						</div>
+
+						<div class="csss">
+							<p>Illustrator</p>
+						</div>
+						<div class="container">
+							<div class="skills ai"> 70%</div>
+						</div>
+						<div class="csss">
+							<p>PANZOID
+						</div>
+						<div class="container">
+							<div class="skills pz"> 100%</div>
+						</div>
+						<!--end of skills html-->
+						<hr>
+
+
+						<!-- function hide skills-->
+	
+
+						<script>
+							function downarrow() {
+								var x = document.getElementById("test");
+								var element = document.getElementById("button2");
+								if (x.style.display === "none") {
+									x.style.display = "block";
+									element.style.transform = 'rotate(180deg)';
+									element.style.transition = "all 0.8s ease";
+								} else {
+									x.style.display = "none";
+									element.style.transform = 'rotate(360deg)';
+									element.style.transition = "all 0.8s ease";
+								}
+							}
+						</script>
+
+
+						<!--
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+								</div>
+								<div class="field">
+									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+								</div>
+								<div class="field">
+									<label>But are you a robot?</label>
+									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />-->
+						
+		</section>
+
+		<!-- Footer-->
+		<footer id="footer">
+			<ul class="icons">
+
+				<li><a href="https://www.instagram.com/Mohammed_yehia_ashour/?fbclid=IwAR2a_cbJ5QvtOslbIQwKulq7a9ttK63LAjRqipNAji2JCy824r8c9g04FTI"
+						target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://www.facebook.com/mohammed.ashour.3726613/" target="_blank"
+						class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" target="_blank" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a>
+				</li>
+				<li><a href="#" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Moudy </li>
+				<li>Design: <a href="#">By Moudy</a></li>
+			</ul>
+		
+		  
+			
+		</footer>
+
+	</div>
+
+
+	<!-- Scripts -->
+	<script>
+		if ('addEventListener' in window) {
+			window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+		}
+	</script>
+	<!---->
+	<script type="text/Javascript">
+
+
+		let progress = document.getElementById('progressbar');
+		let totalheight = document.body.scrollHeight - window.innerHeight
+		window.onscroll = d=function(){
+		  let prgresshight = (window.pageYOffset /totalheight )*100;
+		  progress.style.height = prgresshight + "%";
+		}
+		</script>
+
+
+</body>
+
+</html>
